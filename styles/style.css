@@ -8,6 +8,7 @@
 }
 
 /* header styles */
+/* nav styles */
 nav{
     display:flex;
     justify-content: space-between;
@@ -30,6 +31,50 @@ nav{
     padding: 15px 30px;
     border-radius: 8px;
 }
+/* banner styles */
+ .banner_small_title{
+    font-weight: 500;
+    font-size: 24px;
+    color:rgba(14, 14, 14, 0.5);
+    gap:16px;
+} 
+.banner_big_title{
+    font-weight:bold;
+    font-size: 56px;
+    color: #0E0E0E;
+    gap:24px;    
+}
+.banner_button{
+    width: 270px;
+    height: 56px;
+    border: none;
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-bottom: 117px;
+}
+
+.banner_pro_pic{
+    width:474.03px;
+    height:400px;    
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 160px 80px 160px; 
+    background-color: #C6E4D6;
+    padding:80px 100px;
+    border-radius: 24px;
+} 
+
+.banner_content{
+    max-width:622px;
+} 
+
+
+
 /* main styles */
 
 /* footer styles */
