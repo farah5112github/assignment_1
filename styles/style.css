@@ -19,17 +19,16 @@ nav{
     font-size: 32px;
     color:#0E0E0E;
 }
-.nav_btn{
-    width:116px;
-    height:52px;
-    border-color: #006A50; 
+.nav_btn {
+    width: 116px;
+    height: 52px;
+    border: 1px solid #006A50; 
     background-color: #F5F5F5;
-    color:#006A50;
-    font-weight:600;
-    font-size: 15px; 
+    color: #006A50;
+    font-weight: 600;
+    font-size: 15px;
     padding: 15px 30px;
     border-radius: 8px;
-    border-radius: 8px; 
 }
 /* main styles */
 
