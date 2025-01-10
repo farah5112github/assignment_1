@@ -1,0 +1,36 @@
+/* font-family */
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+
+/* header styles */
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 160px 24px 160px;
+}
+.nav_title{
+    font-weight: bold;
+    font-size: 32px;
+    color:#0E0E0E;
+}
+.nav_btn{
+    width:116px;
+    height:52px;
+    border-color: #006A50; 
+    background-color: #F5F5F5;
+    color:#006A50;
+    font-weight:600;
+    font-size: 15px; 
+    padding: 15px 30px;
+    border-radius: 8px;
+    border-radius: 8px; 
+}
+/* main styles */
+
+/* footer styles */
