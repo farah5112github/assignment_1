@@ -73,8 +73,120 @@ nav{
     max-width:622px;
 } 
 
+/* shared styles */
+.shared_alignment{
+    margin-left: 160px;
+}
 
-
+/* section_1 styles */
+.technologies_container{
+    display: flex;
+    margin: 0px 160px 80px 160px;
+    gap:24px; 
+}
+.technologies_title{
+    font-size:40px;
+    font-weight:bold;
+    color:#0E0E0E;
+}
+.technology{
+    padding: 24px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    /* box-shadow: inset 0 0 0 1px rgba(14, 14, 14, 0.15); */
+    border-radius: 16px;
+    fill:#FFFFFF;
+} 
+.vision_title_1{
+    font-size:40px;
+    font-weight:bold;
+    color:#0E0E0E;
+    margin-bottom:24px;
+}
+.vision_description_1{
+    margin-right:160px;
+    font-size: 16px;
+    font-weight:400px;
+    color:#0E0E0E;
+}
+.vision_1{
+    /* margin:24px; */
+    padding:32px;
+    border-radius:16px;
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.vision_button_2{
+    background-color: #5490F5;
+    color:#FFFFFF;
+    font-weight:400px;
+    width:122px;
+    height:41px;
+    border:none;
+    border-radius: 8px;
+}
+.vision_2{
+    /* margin:24px; */
+    padding:32px;
+    border-radius:16px;
+    background-color: #C6E4D6;
+}
+.vision_button_3{
+    background-color: #09A15C;
+    color:#FFFFFF;
+    font-weight:400px;
+    width:122px;
+    height:41px;
+    border:none;
+    border-radius: 8px;
+}
+.vision_3{
+    /* margin:24px; */
+    padding:32px;
+    border-radius:16px;
+    background-color: #F7EBCF;
+}
+.vision_button_4{
+    background-color: #FFC239;
+    color:#FFFFFF;
+    font-weight:400px;
+    width:122px;
+    height:41px;
+    border:none;
+    border-radius: 8px;
+}
+.visions_container{
+    display: flex;
+    margin: 32px 160px 32px 0px; 
+    gap:24px; 
+}
+.vision_description_2{
+    /* margin-right:160px; */
+    font-size: 16px;
+    font-weight:400px;
+    color:#0E0E0E;
+}
+.quote_container{
+    background-image: url("../assets/quote-bg.png");
+    padding: 48px 24px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    /* box-shadow: inset 0 0 0 1px rgba(14, 14, 14, 0.15); */
+    border-radius: 16px;
+    fill:#FFFFFF;
+    margin-right:160px; 
+    background-repeat: no-repeat;
+    background-position: 24px 45px;   
+}
+.sig_person{
+    font-size: 20px;
+    font-weight:600px;
+    color:rgba(14, 14, 14, 0.8);
+    margin-bottom:0px;  
+    line-height: 4px;     
+}
+.sig_designation{
+    font-size: 16px;
+    font-weight:400px;
+    color:rgba(14, 14, 14, 0.6);
+}
 /* main styles */
 
 /* footer styles */
